@@ -5,6 +5,7 @@
 @media screen and (min-width: 770px) {
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login div#img {
@@ -16,6 +17,7 @@
     div#formulario {
         float: right;
         width: 70%;
+        font-size: 1.1em;
     }
 
     section div#img {
@@ -25,6 +27,16 @@
     background-position: center center;
     height: 200px;
     }
+    div.campo > input {
+    background-color: #6dc3c0;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-13px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
 }
 
 @media screen and (min-width: 990px) {
@@ -34,6 +46,7 @@
 
     section#login {
         width: 950px;
+        height: 380px;
     }
 
     section#login > div#img {
@@ -47,4 +60,27 @@
         width: 50%;
     }
 
+    div#formulario {
+        font-size: 1.2em;
+    }
+
+    div#formulario h1 {
+        font-size: 2.1em;
+    }
+
+    div#formulario p {
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+
+    div.campo > input {
+    background-color: #6dc3c0;
+    font-size: 1em;
+    width: calc(100% - 46px);
+    transform: translateY(-16px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    }
 }
